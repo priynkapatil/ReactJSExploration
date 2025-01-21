@@ -1,0 +1,42 @@
+.nav-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  text-transform: uppercase;
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration-skip-ink: none;
+}
+
+.btn-nav{
+  background-color: #D01C28;
+  padding: 6px 16px;
+  font-family: 16px;
+  color:#ffffff;
+  border: none;
+  width:75px;
+  height: 31px;
+}
+
+@media (max-width: 768px) {
+  
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 650px) {
+  .menu {
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;;
+  }
+}
