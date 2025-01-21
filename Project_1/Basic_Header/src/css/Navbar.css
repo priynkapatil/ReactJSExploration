@@ -16,6 +16,7 @@
   font-weight: 600;
   line-height: 24px;
   text-decoration-skip-ink: none;
+  cursor: pointer;
 }
 
 .btn-nav{
@@ -28,8 +29,15 @@
   height: 31px;
 }
 
-@media (max-width: 768px) {
-  
+.MobileNavigation{
+  display: none;
+}
+
+.HamburgerMenu{
+  position: absolute;
+  right: 2%;
+  top:6%;
+  cursor: pointer;
 }
 
 /* Styles for screens smaller than 480px */
@@ -39,4 +47,22 @@
     font-size: 14px;
     font-weight: 600;;
   }
+  .menu{
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    border-top: 3px solid gray;
+    top: 15vh;
+    right: 0;
+    height: 50vh;
+    width: 100%;
+    background:rgb(251, 248, 248);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.MobileNavigation{
+  display: block;
+}
+.DesktopNavigation{
+  display: none;
+}
 }
