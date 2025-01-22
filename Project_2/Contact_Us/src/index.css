@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding-inline: 70px;
+  padding-block: 30px;
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
