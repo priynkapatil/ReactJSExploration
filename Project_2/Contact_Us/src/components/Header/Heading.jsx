@@ -11,7 +11,7 @@ const Heading = () => {
         REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE,
         EMAIL, OR SOCIAL MEDIA.
       </p>
-      <div>
+      <div className='padding-added'> 
         <BannerForm />
       </div>
     </div>

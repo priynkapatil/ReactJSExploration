@@ -13,10 +13,21 @@
   max-width: 975px;
   width: 100%;
   text-align: justify;
+  color: #5a5959;
 }
 
-.header-layout{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.padding-added {
+  padding-top: 30px;
+}
+
+.button-ly {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
